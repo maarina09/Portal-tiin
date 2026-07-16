@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorenzo — Dev Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&family=Poppins:wght@400;600&family=Inter:wght@400;600&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="custom-cursor" id="cursor"></div>
+<div class="custom-cursor-outline" id="cursorOutline"></div>
+
+<div class="grid-bg"></div>
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-logo">Lorenzo.DEV</span>
+    <div class="nav-controls">
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      
+      <div class="checkbox-wrapper-4">
+        <input class="inp-cbx" id="themeToggle" type="checkbox">
+        <label class="cbx" for="themeToggle">
+          <span>
+            <svg width="12px" height="10px">
+              <use xlink:href="#check-4"></use>
+            </svg>
+          </span>
+          <span id="themeLabel">Modo Claro</span>
+        </label>
+        <svg class="inline-svg">
+          <symbol id="check-4" viewBox="0 0 12 10">
+            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+          </symbol>
+        </svg>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="wrapper">
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">// portfólio pessoal</p>
+      <h1>Lorenzo<br><span>Dev</span></h1>
+      <p class="hero-desc">
+        16 anos, 1º ano do ensino médio. Estudante de Desenvolvimento de Software no <strong>SENAI</strong>, construindo projetos reais e aprendendo na prática.
+      </p>
+      <div class="hero-badges">
+        <span class="badge hot">SENAI · TI</span>
+        <span class="badge">HTML</span>
+        <span class="badge">CSS</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">Ensino Médio</span>
+      </div>
+    </div>
+    
+    <div class="hero-avatar">
+      <img src="fd95c6691dde3badcb885ec90bfb434d.jpg" alt="Foto do Lorenzo (Invincible)">
+    </div>
+    
+    <div class="hero-line"></div>
+  </section>
+
+  <section id="sobre">
+    <p class="section-label reveal">// sobre mim</p>
+    <h2 class="section-title reveal">Quem sou eu</h2>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <h3>Trajetória</h3>
+        <p>
+          Tenho <strong>16 anos</strong> e curso o <strong>1º ano do ensino médio no Instituto Estadual de Educação</strong> integrado ao técnico de <strong>Desenvolvimento de Software</strong> no SENAI. Foco total em transformar linhas de código em soluções.
+        </p>
+      </div>
+      <div class="about-card reveal">
+        <h3>Foco Atual</h3>
+        <p>
+          Construindo base sólida em <strong>HTML, CSS e JavaScript</strong>. Cada projeto é uma chance de aprender algo novo — desde manipulação avançada da DOM até arquitetura front-end estruturada.
+        </p>
+      </div>
+      <div class="about-card reveal">
+        <div class="stat-num">9<span>+</span></div>
+        <p>Projetos completos desenvolvidos e publicados</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="stat-num">1º<span>º</span></div>
+        <p>Semestre do curso técnico de Software no SENAI em andamento</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="projetos">
+    <p class="section-label reveal">// meus projetos</p>
+    <h2 class="section-title reveal">O que construí</h2>
+    <div class="projects-grid">
+
+      <div class="glow-card reveal">
+        <a href="https://zesty-salamander-933878.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">001</p>
+            <h3>Sistema de Gestão Escolar</h3>
+            <p>Interface de gerenciamento escolar desenvolvida com recursos visuais elegantes e CRUD integrado direto na tela.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-media-box"></div>
+        </a>
+      </div>
+
+      <div class="glow-card reveal">
+        <a href="https://joyful-entremet-58441a.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">002</p>
+            <h3>Conversor de Moedas</h3>
+            <p>Aplicação de câmbio ágil e responsiva que realiza cálculos de conversões monetárias em tempo real.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-media-box"></div>
+        </a>
+      </div>
+
+      <div class="glow-card reveal">
+        <a href="https://gentle-capybara-caf5cd.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">003</p>
+            <h3>Calculadora Web</h3>
+            <p>Calculadora digital com layout moderno e interações fluidas executando direto no navegador.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-media-box"></div>
+        </a>
+      </div>
+
+      <div class="glow-card reveal">
+        <a href="https://nimble-gumdrop-1cf358.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">004</p>
+            <h3>Invencível — Fan Page</h3>
+            <p>Plataforma informativa dedicada à série animada <em>Invincible</em>. Explora histórias, personagens marcantes e integra mídias externas.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+            </div>
+          </div>
+          <div class="project-media-box"></div>
+        </a>
+      </div>
+
+      <div class="glow-card reveal">
+        <a href="https://bright-truffle-a07e19.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">005</p>
+            <h3>IMC Calculator</h3>
+            <p>Calculadora de Índice de Massa Corporal baseada em componentes modais dinâmicos.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-media-box"></div>
+        </a>
+      </div>
+
+      <div class="glow-card reveal">
+        <a href="https://chic-starship-c91ca0.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">006</p>
+            <h3>Loja Virtual</h3>
+            <p>Plataforma de e-commerce completa construída com layout moderno, navegação fluida e catálogo de produtos responsivo.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-media-box">
+            <div class="project-icon-emoji" style="line-height: 1;"></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="glow-card reveal">
+        <a href="https://frabjous-biscuit-dd575c.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">007</p>
+            <h3>Previsão do Tempo</h3>
+            <p>Aplicação em tempo real para consulta meteorológica de cidades com atualização de dados dinâmica e responsiva.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-media-box"></div>
+        </a>
+      </div>
+
+      <div class="glow-card reveal">
+        <a href="https://cosmic-blancmange-44a040.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">008</p>
+            <h3>CRUD de Tarefas</h3>
+            <p>Gerenciador de tarefas (To-Do List) com fluxo completo de criação, leitura, edição e exclusão de itens de forma fluida.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-media-box"></div>
+        </a>
+      </div>
+
+      <div class="glow-card reveal">
+        <a href="https://cheerful-taffy-539120.netlify.app/" target="_blank" class="project-card">
+          <div>
+            <p class="project-num">009</p>
+            <h3>Site de Restaurante</h3>
+            <p>Landing page moderna e interativa desenvolvida para apresentação de menus, pratos da casa e reservas de mesa.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-media-box"></div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="skills">
+    <p class="section-label reveal">// tecnologias</p>
+    <h2 class="section-title reveal">Stack atual</h2>
+    <div class="skills-list">
+      <div class="skill-item reveal">
+        <img src="html.png" alt="HTML5" class="skill-img-icon">
+        <div class="skill-name">HTML5</div>
+      </div>
+      <div class="skill-item reveal">
+        <img src="css-3.png" alt="CSS3" class="skill-img-icon">
+        <div class="skill-name">CSS3</div>
+      </div>
+      <div class="skill-item reveal">
+        <img src="js.png" alt="JavaScript" class="skill-img-icon">
+        <div class="skill-name">JavaScript</div>
+      </div>
+      <div class="skill-item reveal">
+        <img src="ux.png" alt="UI Design" class="skill-img-icon">
+        <div class="skill-name">UI Design</div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="project-icon-emoji" style="line-height: 1; margin-bottom: -4px;">🔧</div>
+        <div class="skill-name">CRUD / DOM</div>
+      </div>
+      <div class="skill-item reveal">
+        <div class="project-icon-emoji" style="line-height: 1; margin-bottom: -4px;">📱</div>
+        <div class="skill-name">Responsive</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="contato">
+    <p class="section-label reveal">// conexões</p>
+    <h2 class="section-title reveal">Vamos conversar?</h2>
+    <div class="contact-grid">
+      
+      <div class="glow-card contact-box reveal">
+        <a href="https://github.com/Lorenzomarca" target="_blank" class="contact-card">
+          <div class="contact-icon-box">
+            <img src="github.png" alt="GitHub">
+          </div>
+          <div class="contact-details">
+            <h3>GitHub</h3>
+            <p>@Lorenzomarca</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="glow-card contact-box reveal">
+        <a href="https://www.linkedin.com/in/lorenzo-guedes-marca-122476416?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-card">
+          <div class="contact-icon-box">
+            <img src="linkedin.png" alt="LinkedIn">
+          </div>
+          <div class="contact-details">
+            <h3>LinkedIn</h3>
+            <p>Lorenzo Guedes Marca</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="glow-card contact-box reveal">
+        <a href="https://www.instagram.com/tech_duo.ml?igsh=d3g4MWN0M3Fjcmg=" target="_blank" class="contact-card">
+          <div class="contact-icon-box">
+            <img src="10255.jpg" alt="Tech Duo Instagram" style="object-fit: cover;">
+          </div>
+          <div class="contact-details">
+            <h3>Instagram (Tech Duo)</h3>
+            <p>@tech_duo.ml</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="glow-card contact-box reveal">
+        <a href="https://wa.me/5548984514714?text=Olá%20Lorenzo,%20vi%20seu%20portfólio!" target="_blank" class="contact-card">
+          <div class="contact-icon-box">
+            <img src="whatsapp.png" alt="WhatsApp">
+          </div>
+          <div class="contact-details">
+            <h3>WhatsApp</h3>
+            <p>(48) 98451-4714</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="glow-card contact-box reveal">
+        <a href="mailto:lorenzoguedesmarca@hotmail.com" class="contact-card">
+          <div class="contact-icon-box">
+            <img src="gmail.png" alt="Gmail">
+          </div>
+          <div class="contact-details">
+            <h3>E-mail</h3>
+            <p>lorenzoguedesmarca@hotmail.com</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>construído por <span>Lorenzo</span> · SENAI Desenvolvimento de Software · <span>2026</span></p>
+  </footer>
+</div>
+
+<button class="style-engine-btn" id="styleBtn" title="Personalizar Tema">
+  <svg viewBox="0 0 24 24"><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.35 19.43,11.03L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.47,5.34 14.87,5.12L14.5,2.45C14.46,2.21 14.25,2.04 14,2.04H10C9.75,2.04 9.54,2.21 9.5,2.45L9.13,5.12C8.53,5.34 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11.03C4.53,11.35 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.95C7.96,18.34 8.53,18.66 9.13,18.88L9.5,21.55C9.54,21.79 9.75,21.96 10,21.96H14C14.25,21.96 14.46,21.79 14.5,21.55L14.87,18.88C15.47,18.66 16.04,18.34 16.56,17.95L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" /></svg>
+</button>
+
+<div class="style-panel" id="stylePanel">
+  <div class="style-section">
+    <span class="style-label">Cor Principal</span>
+    <div class="color-grid">
+      <div class="color-opt active" data-color="#2f80ff" style="background: #2f80ff;"></div>
+      <div class="color-opt" data-color="#10b981" style="background: #10b981;"></div>
+      <div class="color-opt" data-color="#ef4444" style="background: #ef4444;"></div>
+      <div class="color-opt" data-color="#8b5cf6" style="background: #8b5cf6;"></div>
+      <div class="color-opt" data-color="#f59e0b" style="background: #f59e0b;"></div>
+      <div class="color-opt" data-color="custom" style="background: linear-gradient(45deg, #f06, #4fa);\"></div>
+      <div class="custom-color-wrapper" id="customColorContainer" style="display: none;">
+        <input type="color" id="customColorPicker" value="#2f80ff">
+        <span class="custom-color-label">Personalizada</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="style-section">
+    <span class="style-label">Tipografia</span>
+    <select class="font-select" id="fontSelect">
+      <option value="'Syne', sans-serif">Syne (Padrão)</option>
+      <option value="'Poppins', sans-serif">Poppins</option>
+      <option value="'Inter', sans-serif">Inter</option>
+      <option value="'Roboto', sans-serif">Roboto</option>
+      <option value="'Montserrat', sans-serif">Montserrat</option>
+    </select>
+  </div>
+  
+  <div style="font-family: var(--mono); font-size: 0.6rem; color: var(--muted); text-align: center; margin-top: 10px;">
+    Preferências salvas automaticamente
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html> 
